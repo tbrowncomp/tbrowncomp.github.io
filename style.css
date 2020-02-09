@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FUCXEDCAPS-v2;
+  src: url("media/FUCXEDCAPS-v2.otf") format("opentype");
+}
+
+/* Style the body */
+
+body {
+  margin: 4%;
+}
+
+.content {
+  text-align: center;
+  font-family: FUCXEDCAPS-v2;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  background: #97d700;
+  color: white;
+  border: 25px solid #97d700;
+  border-radius: 10px 10px 50px 10px;
+}
+
+/* Header/logo Title */
+
+.header {
+  padding: 50px;
+  font-size: 40px;
+}
+
+.bolton {
+  color: black;
+  font-family: FUCXEDCAPS-v2;
+  font-size: 111px;
+}
+
+a {
+  font-family: FUCXEDCAPS-v2;
+  color: white;
+  font-size: 60px;
+}
+
+#xrlogo {
+  display: inline;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #97d700;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #6e6e70;
+	background:linear-gradient(to bottom, #000000 5%, #a3a3a3 100%);
+	background-color:#000000;
+	border-radius:10px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#97d700;
+	/* font-family:Arial; */
+	/* font-size:19px; */
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #253301;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a3a3a3 5%, #000000 100%);
+	background-color:#a3a3a3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
