@@ -13,15 +13,24 @@ body {
   margin: 4%;
 }
 
+.container {
+  border: 25px solid rgba(151, 215, 0, 0.5);
+  border-radius: 10px;
+}
+
+.background {
+  background-image: url(media/rivington-pike.jpg);
+  background-size: cover;
+  
+}
+
 .content {
   text-align: center;
   font-family: FUCXEDCAPS-v2;
   font-family: 'Crimson Text', serif;
   margin: 0;
-  background: #97d700;
+  background: rgba(151, 215, 0, 0.5);
   color: white;
-  border: 25px solid #97d700;
-  border-radius: 10px 10px 50px 10px;
 }
 
 /* Header/logo Title */
@@ -34,7 +43,7 @@ body {
 .bolton {
   color: black;
   font-family: FUCXEDCAPS-v2;
-  font-size: 111px;
+  font-size: 10vw;
 }
 
 a {
@@ -44,38 +53,31 @@ a {
 }
 
 #xrlogo {
-  display: inline;
+  width: 75%;
 }
-
-/* Footer */
 
 .footer {
   padding: 20px;
   text-align: center;
-  background: #97d700;
 }
 
 .myButton {
-	box-shadow: 0px 0px 0px 2px #6e6e70;
-	background:linear-gradient(to bottom, #000000 5%, #a3a3a3 100%);
-	background-color:#000000;
-	border-radius:10px;
-	border:1px solid #000000;
-	display:inline-block;
-	cursor:pointer;
-	color:#97d700;
-	/* font-family:Arial; */
-	/* font-size:19px; */
-	padding:12px 37px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #253301;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #a3a3a3 5%, #000000 100%);
-	background-color:#a3a3a3;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+  border: 6px solid rgba(151, 215, 0, 0.5);
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding: 2px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #253301;
+  font-size: 4vw;
 }
 
+.myButton:hover {
+  background-color: rgba(151, 215, 0);
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
