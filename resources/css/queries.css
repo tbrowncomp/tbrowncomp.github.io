@@ -29,9 +29,18 @@
 /* Smaller than iPad 481 - 767px */
 @media only screen and (max-width: 767px) {
 
+    html {
+        font-size: 18px;
+    }
+
     .col {
         width: 100%;
         margin-left: 0;
+    }
+
+    .tech .col,
+    .work .col {
+        margin-bottom: 15px;
     }
 
     .about-me .btn {
@@ -63,6 +72,10 @@
 
     .hobbies-text {
         margin: 50px 0;
+    }
+
+    .contact {
+        text-align: left;
     }
     
 
