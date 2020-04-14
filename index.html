@@ -1,47 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
-  <link rel="manifest" href="media/favicon/site.webmanifest">
-  <link rel="mask-icon" href="media/favicon/safari-pinned-tab.svg" color="#14aa37">
-  <meta name="msapplication-TileColor" content="#000000">
-  <meta name="theme-color" content="#ffffff">
-
-  <title>XR Bolton</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="background">
-      <div class="content">
-
-        <div class="header">
-          <img id="xrlogo" src="media/ER-logo-4col-Black-Linear.png" alt="XR" />
-          <div class="bolton">Bolton</div>
-
-        </div>
-
-        <div class="main">
-          <a class="myButton" href="https://www.facebook.com/XRBolton/">
-            Join us on Facebook
-          </a>
-        </div>
-
-
-        <div class="footer">
-
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+        <title>Thomas Brown Software Developer</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <ul class="main-nav">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Tech</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Hobbies</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>                
+                </div>
+            </nav>
+            <div class="intro-box">
+                <img src="resources/img/tom-brown-b-w-crp.png" alt="me">
+                <div class="hero-text-box">
+                    <h1>Thomas Brown</h1>
+                    <h2>Software Developer</h2>
+                </div>
+            </div>         
+            
+        </header>
+        <section class="about-me">
+            <div class="row">
+                <h2>About</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <p>
+                        This is just something about me and what I do. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec risus id ante viverra condimentum. Donec at massa libero. Sed iaculis, elit a blandit egestas, diam turpis maximus mi, eu mattis felis ex quis lorem. Maecenas malesuada luctus mauris at ornare. Fusce dapibus fringilla diam quis porta. Nullam imperdiet pharetra ligula, et mattis ante tincidunt porttitor. In tincidunt magna et feugiat eleifend. Etiam molestie lacus et varius imperdiet.
+                    </p>
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="cv-button">
+                        <a class="btn btn-full" href="#">Download my CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tech">
+            <div class="row">
+                <h2>Tech & Tools</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <h3>Languages/Frameworks</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring</li>
+                        <li>C#</li>
+                        <li>.Net</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-3">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                        <li>AWS</li>
+                        <li>GCP</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-3">
+                    <h3>Methodologies/practices</h3>
+                    <ul>
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                        <li>TDD</li>
+                        <li>SOLID</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="row">
+                <h2>Work</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 coop">
+                    <h3>CO-OP</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec risus id ante viverra condimentum. Donec at massa libero. Sed iaculis, elit a blandit egestas, diam turpis maximus mi, eu mattis felis ex quis lorem.
+                    </p>
+                </div>
+                <div class="col span-1-of-3 jlr">
+                    <h3>JLR</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec risus id ante viverra condimentum. Donec at massa libero. Sed iaculis, elit a blandit egestas, diam turpis maximus mi, eu mattis felis ex quis lorem.
+                    </p>
+                </div>
+                <div class="col span-1-of-3 ao">
+                    <h3>AO</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec risus id ante viverra condimentum. Donec at massa libero. Sed iaculis, elit a blandit egestas, diam turpis maximus mi, eu mattis felis ex quis lorem.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="hobbies">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <img src="resources/img/trail.jpg" alt="Winter Hill 10k">
+                </div>
+                <div class="col span-1-of-3 hobbies-text">
+                    <h2>Hobbies</h2>
+                    <p>I run and stuff.</p>
+                </div>
+                <div class="col span-1-of-3">
+                    <img src="resources/img/half.jpg" alt="Winter Hill 10k">
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="row">
+                <h2>Contact</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 email">
+                    <a href="mailto:tbrowncomp@gmail.com">
+                        <i class="ion-ios-email-outline icon-large"></i> <span class="email-text">tbrowncomp@gmail.com</span>
+                    </a>
+                    
+                </div>
+                <div class="col span-1-of-2">
+                    <a href="https://www.linkedin.com/in/thomas-brown-2ba35b114/"> 
+                        <i class="ion-social-linkedin icon-large"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <ul class="footer-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Tech</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Hobbies</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>

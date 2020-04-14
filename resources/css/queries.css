@@ -1,0 +1,75 @@
+
+/* Big tablet -1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+        padding: 0 2%;
+}
+    .row {
+        padding: 0 2%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .tech {
+        text-align: center;
+    }
+}
+
+
+/* Small tablet to big tablet: 768 -1023px */
+@media only screen and (max-width: 1023px) {
+/* Seems ok */
+}
+
+
+/* Smaller than iPad 481 - 767px */
+@media only screen and (max-width: 767px) {
+
+    .col {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about-me .btn {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+    .cv-button {
+        text-align: center;
+    }
+
+    .tech .col {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        border: 5px solid white;
+        border-radius: 50px;
+    }
+   
+    .main-nav {display: none;}
+
+    .intro-box {
+        margin-top: 130px;
+    }
+
+    .hobbies img {
+        width: 65%;
+    }
+
+    .hobbies-text {
+        margin: 50px 0;
+    }
+    
+
+}
+
+
+/* Small phones 0 - 480px */
+@media only screen and (max-width: 480px) {
+
+}
